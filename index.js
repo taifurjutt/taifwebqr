@@ -5,7 +5,8 @@ const app = express();
 
 
 
-
+const PastebinAPI = require('pastebin-js'),
+pastebin = new PastebinAPI('EMWTMkQAVfJa9kM-MRUrxd5Oku1U7pgL')
 const pino = require("pino");
 let { toBuffer } = require("qrcode");
 const path = require('path');
